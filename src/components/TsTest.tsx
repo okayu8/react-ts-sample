@@ -1,15 +1,15 @@
 import * as React from 'react';
 
-interface Props {
+interface Iprops {
     text: string;
 }
 
-interface State {
+interface Istate {
     testNum: number
 }
 
-export default class TsTest extends React.Component<Props, State> {
-    constructor(props: Props) {
+export default class TsTest extends React.Component<Iprops, Istate> {
+    constructor(props: Iprops) {
         super(props);
         this.state = {
             testNum: 1
