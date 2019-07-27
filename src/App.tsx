@@ -16,6 +16,10 @@ class App extends React.Component {
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
         <TsTest text="test" />
+        <div className="wrap">
+          {/* 読み込みが完了したら表示する要素 */}
+          <p>読み込み完了</p>
+        </div>
       </div>
     );
   }
